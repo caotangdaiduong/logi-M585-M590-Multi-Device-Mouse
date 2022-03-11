@@ -1,6 +1,6 @@
 # logi-M585-M590-Multi-Device-Mouse
 sudo /usr/local/bin/logid -v -c /etc/logid.cfg
-
+```sh
 [DEBUG] CID  | reprog? | fn key? | mouse key? | gesture support?
 [DEBUG] 0x50 |         |         | YES        | 
 [DEBUG] 0x51 |         |         | YES        | 
@@ -10,9 +10,9 @@ sudo /usr/local/bin/logid -v -c /etc/logid.cfg
 [LEFT]  0x5b | YES     |         | YES        | YES
 [RIGHT] 0x5d | YES     |         | YES        | YES
 [DEBUG] 0xd7 | YES     |         |            | YES
+```
 
-
-
+```sh
 cat /lib/systemd/system/logid.service
 [Unit]
 Description=Logitech Configuration Daemon
@@ -30,3 +30,4 @@ RestartSec=3
 
 [Install]
 WantedBy=graphical.target
+```
