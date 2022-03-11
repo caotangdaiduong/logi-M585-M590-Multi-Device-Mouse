@@ -1,4 +1,8 @@
 # logi-M585-M590-Multi-Device-Mouse
+
+git here:
+https://github.com/PixlOne/logiops
+
 sudo /usr/local/bin/logid -v -c /etc/logid.cfg
 ```sh
 [DEBUG] CID  | reprog? | fn key? | mouse key? | gesture support?
