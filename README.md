@@ -4,8 +4,10 @@ git here:
 https://github.com/PixlOne/logiops
 
 Default location for the configuration file is /etc/logid.cfg, but another can be specified using the -c flag.
-sudo /usr/local/bin/logid -v -c /etc/logid.cfg
+
+
 ```sh
+sudo /usr/local/bin/logid -v -c /etc/logid.cfg
 [DEBUG] CID  | reprog? | fn key? | mouse key? | gesture support?
 [DEBUG] 0x50 |         |         | YES        | 
 [DEBUG] 0x51 |         |         | YES        | 
