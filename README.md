@@ -1,4 +1,4 @@
-
+```sh
 sudo apt install cmake make libevdev-dev libudev-dev libconfig++-dev
 apt-get install build-essential
 git clone https://github.com/PixlOne/logiops.git
@@ -10,7 +10,7 @@ make
 mv logid /usr/local/bin/logid
 
 sudo /usr/local/bin/logid -v -c /etc/logid.cfg
-
+```sh
 # logi-M585-M590-Multi-Device-Mouse
 
 git here:
